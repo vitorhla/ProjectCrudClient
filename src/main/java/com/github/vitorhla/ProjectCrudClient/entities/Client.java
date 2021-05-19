@@ -22,8 +22,6 @@ public class Client implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
-	
-	@CPF
 	private String cpf;
 	private Double income;
 	
